@@ -2,7 +2,7 @@
  * @file Tree-sitter grammar for MWScript (TES Construction Set scripting language).
  * @license MIT
  *
- * See ../../spec/SPEC.md for the language specification.
+ * See spec/SPEC.md for the language specification.
  */
 
 /// <reference types="tree-sitter-cli/dsl" />
@@ -26,7 +26,6 @@ const PREC = {
   multiplicative: 6,
   additive: 5,
   comparison: 4,
-  call: 3,
 };
 
 module.exports = grammar({
