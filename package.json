@@ -1,0 +1,32 @@
+{
+  "name": "tree-sitter-mwscript",
+  "version": "0.0.1",
+  "description": "Tree-sitter grammar for Morrowind / TES Construction Set scripting language",
+  "main": "bindings/node",
+  "keywords": [
+    "tree-sitter",
+    "parser",
+    "morrowind",
+    "mwscript",
+    "tes",
+    "tes3",
+    "tes3cs"
+  ],
+  "license": "MIT",
+  "tree-sitter": [
+    {
+      "scope": "source.mwscript",
+      "file-types": [
+        "mwscript"
+      ],
+      "highlights": "queries/highlights.scm"
+    }
+  ],
+  "dependencies": {
+    "node-addon-api": "^7.1.0",
+    "node-gyp-build": "^4.8.0"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.26.0"
+  }
+}

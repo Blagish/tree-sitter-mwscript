@@ -1,0 +1,28 @@
+{
+  "grammars": [
+    {
+      "name": "mwscript",
+      "camelcase": "Mwscript",
+      "scope": "source.mwscript",
+      "path": ".",
+      "file-types": ["mwscript"],
+      "injection-regex": "^mwscript$",
+      "highlights": ["queries/highlights.scm"]
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "license": "MIT",
+    "description": "Tree-sitter grammar for Morrowind script language",
+    "authors": [{ "name": "blagish" }]
+  },
+  "bindings": {
+    "c": false,
+    "go": false,
+    "node": false,
+    "python": false,
+    "rust": false,
+    "swift": false,
+    "zig": false
+  }
+}
