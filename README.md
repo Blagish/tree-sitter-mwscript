@@ -47,7 +47,7 @@ grammar = "mwscript"
 
 [[grammar]]
 name = "mwscript"
-source = { git = "https://github.com/Blagish/tree-sitter-mwscript", rev = "<commit>" }
+source = { git = "https://github.com/Blagish/tree-sitter-mwscript", rev = "694e9284d29f3a21fbd40b158146f4f27560a403" }
 ```
 
 ### Zed
